@@ -1,0 +1,18 @@
+# This is a generated version of the vendorspec. Please change the
+# values to suit your library.
+
+Vendor::Spec.new do |s|
+
+  s.name        = "ISO8601DateFormatter"
+  s.version     = "0.5"
+
+  s.authors     = "Peter Hosey"
+  s.email       = "me@keithpitt.com"
+  s.description = "ISO 8601 provides a standard unambiguous format (several, actually) for dates and times"
+
+  s.homepage    = "http://boredzo.org/"
+  s.source      = "https://github.com/keithpitt/ISO8601DateFormatter"
+
+  s.files       = [ "ISO8601DateFormatter.h", "ISO8601DateFormatter.m" ]
+
+end
